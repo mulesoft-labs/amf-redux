@@ -4,7 +4,6 @@
         "align": [
             true,
             "parameters",
-            "arguments",
             "statements"
         ],
         "ban": false,
@@ -13,7 +12,6 @@
             true,
             "check-space"
         ],
-        "curly": true,
         "eofline": false,
         "forin": true,
         "indent": [ true, "spaces" ],
@@ -29,12 +27,10 @@
             "static-before-instance",
             "variables-before-functions"
         ],
-        "no-any": true,
         "no-arg": true,
         "no-bitwise": true,
         "no-console": [
             true,
-            "log",
             "error",
             "debug",
             "info",
@@ -48,22 +44,19 @@
         "no-duplicate-variable": true,
         "no-empty": true,
         "no-eval": true,
-        "no-shadowed-variable": true,
         "no-string-literal": true,
         "no-switch-case-fall-through": true,
         "no-trailing-whitespace": false,
         "no-unused-expression": true,
-        "no-use-before-declare": true,
         "one-line": [
             true,
             "check-catch",
             "check-else",
-            "check-open-brace",
             "check-whitespace"
         ],
         "quotemark": [true, "single", "jsx-double"],
         "radix": true,
-        "semicolon": [true, "always"],
+        "semicolon": [false, "always"],
         "switch-default": true,
 
         "trailing-comma": [false],
@@ -74,26 +67,6 @@
             "parameter",
             "property-declaration"
         ],
-        "typedef-whitespace": [
-            true,
-            {
-                "call-signature": "nospace",
-                "index-signature": "nospace",
-                "parameter": "nospace",
-                "property-declaration": "nospace",
-                "variable-declaration": "nospace"
-            }
-        ],
-        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"],
-        "whitespace": [
-            true,
-            "check-branch",
-            "check-decl",
-            "check-module",
-            "check-operator",
-            "check-separator",
-            "check-type",
-            "check-typecast"
-        ]
+        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"]
     }
 }
